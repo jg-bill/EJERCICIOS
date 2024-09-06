@@ -1,0 +1,6 @@
+name= input ( " Ingrese nombre del postulante: ")
+ResCorr= int (input ( " INGRESE NUMERO DE RESPUESTAS CORRECTAS: "))
+ResIncorr= int (input ( " INGRESE NUMERO DE RESPUESTAS INCORRECTAS: "))
+ResBlanc= int (input ( " INGRESE NUMERO DE RESPUESTAS EN BLANCO: "))
+puntajFinal = (ResCorr*4)+ (ResIncorr*-1)+(ResBlanc*0)
+print ( " EL PUNTAJE FINAL DEL POSTULANTE", name, " Y EL PUNTAJE FINAL ES ", puntajFinal)

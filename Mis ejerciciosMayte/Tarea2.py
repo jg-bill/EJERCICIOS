@@ -1,0 +1,7 @@
+#CALCULA CUANTAS MINUTOS Y SEGUNDOS HABRA EN 5 HORAS
+
+hr= int (input( "INGRESAR NUMERO DE HORAS:"))
+
+min = hr*60
+seg= hr * 3600
+print ( "EN ESA CANTIDAD DE HORAS HAY ", min, " MINUTOS Y ", seg, " SEGUNDOS")
